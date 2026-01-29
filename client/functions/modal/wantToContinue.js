@@ -39,7 +39,7 @@ export function wantToContinue() {
 
   buttonNo.addEventListener('click', () => {
     if (bodyContainer) bodyContainer.remove();
-    window.location.href = '../html/welcome.html';
+    window.location.href = 'welcome.html';
   });
 
   buttonYes.addEventListener('click', () => {

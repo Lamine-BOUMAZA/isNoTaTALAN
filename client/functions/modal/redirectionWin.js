@@ -35,7 +35,7 @@ export function redirectionWin({ seconds = 3 } = {}) {
     remaining -= 1;
     if (remaining <= 0) {
       clearInterval(interval);
-      window.location.href = '../html/welcome.html';
+      window.location.href = 'welcome.html';
       return;
     }
     updateText();

@@ -30,7 +30,7 @@ export function quit() {
   buttonYes.className = 'button';
   buttonYes.style.cursor = 'pointer';
   buttonYes.addEventListener('click', () => {
-    window.location.href = '../html/welcome.html';
+    window.location.href = 'welcome.html';
     if (bodyContainer) bodyContainer.remove();
   });
   down.appendChild(buttonYes);

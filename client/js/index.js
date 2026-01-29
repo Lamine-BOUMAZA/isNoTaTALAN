@@ -136,9 +136,9 @@ function updateHardcoreEnemySpeed() {
 }
 
 const modeAudioMap = {
-  normal: '../public/audio/normalLevel.mp3',
-  infinity: '../public/audio/InfiniteLevel.mp3',
-  hardcore: '../public/audio/hardcoreLevel.mp3',
+  normal: './public/audio/normalLevel.mp3',
+  infinity: './public/audio/InfiniteLevel.mp3',
+  hardcore: './public/audio/hardcoreLevel.mp3',
 };
 
 const musicEl = document.getElementById('musique');
@@ -208,12 +208,12 @@ const extraChests = [];
 // Sprite configuration
 const spriteConfig = {
   1: {
-    walk: '../public/images/futureRunner.gif',
-    idle: '../public/images/cyberStop.png',
+    walk: './public/images/futureRunner.gif',
+    idle: './public/images/cyberStop.png',
   },
   2: {
-    walk: '../public/images/Stranger.gif',
-    idle: '../public/images/StrangerStop.png',
+    walk: './public/images/Stranger.gif',
+    idle: './public/images/StrangerStop.png',
   },
 };
 

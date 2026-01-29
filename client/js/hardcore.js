@@ -41,12 +41,12 @@ applySelectedCharacterImage();
 
 const spriteConfig = {
   1: {
-    walk: '../public/images/cyborgRun.png',
-    idle: '../public/images/cyberStop.png',
+    walk: './public/images/cyborgRun.png',
+    idle: './public/images/cyberStop.png',
   },
   2: {
-    walk: '../public/images/Stranger.gif',
-    idle: '../public/images/StrangerStop.png',
+    walk: './public/images/Stranger.gif',
+    idle: './public/images/StrangerStop.png',
   },
 };
 
