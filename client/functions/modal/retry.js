@@ -56,12 +56,12 @@ export function retry() {
     try {
       localStorage.setItem('skipIntroOnce', '1');
     } catch (_) {}
-    window.location.href = 'index.html';
+    window.location.href = 'welcome.htmll';
   });
 
   buttonNo.addEventListener('click', () => {
     if (bodyContainer) bodyContainer.remove();
-    window.location.href = 'welcome.html';
+    window.location.href = 'index.html';
   });
 
   div.appendChild(high);

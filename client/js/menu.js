@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   playButton.addEventListener('click', function () {
-    window.location.href = 'index.html';
+    window.location.href = 'welcome.htmll';
   });
 
   // Init
