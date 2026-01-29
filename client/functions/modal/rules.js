@@ -18,31 +18,33 @@ export function rules({ onClose } = {}) {
   rulesList.className = 'rules_list';
 
   const normalRules = [
-    '- Récupère la clé en passant dessus.',
+    '- Récupère la clé pour ouvrir la porte.',
     '- Atteins la porte avec la clé.',
-    '- Fini le niveau dans le temps imparti.',
-    '- Le temps augmente à chaque niveau.',
+    '- Sors du labyrinthe dans le temps imparti.',
+    '- ATTENTION : Le temps augmente à chaque niveau !',
     '- Chaque niveau est plus difficile.',
     '- Termine les 5 niveaux pour gagner.',
   ];
 
   const infiniteRules = [
-    '- Récupère la clé en passant dessus.',
+    '- Récupère la clé pour ouvrir la porte.',
     '- Atteins la porte avec la clé.',
-    '- Fini le niveau dans le temps imparti.',
-    '- Le temps augmente à chaque niveau.',
+    '- Sors du labyrinthe dans le temps imparti.',
+    '- ATTENTION : Le temps augmente à chaque niveau !',
     '- Chaque niveau est plus difficile.',
-    "- Les niveaux montes à l'infini .",
+    "- Les niveaux montes à l'infini.",
   ];
 
   const hardcoreRules = [
     '- Récupère la clé qui est caché dans un coffre.',
     '- Atteins la porte avec la clé.',
-    "- Fais attention à l'environnement.",
+    '- Mais ATTENTION à ce qui est caché dans les coffres.',
+    '- ATTENTION AUX ENNEMIS',
     '- Fini le niveau dans le temps imparti.',
     '- Le temps augmente à chaque niveau.',
     '- Chaque niveau est beaucoup plus difficile.',
-    '- Termine les 5 niveaux pour gagner .',
+    '- Termine les 5 niveaux pour gagner.',
+    '- BIENVENUE EN ENFER !!!',
   ];
 
   const gameMode = localStorage.getItem('selectedMode');
