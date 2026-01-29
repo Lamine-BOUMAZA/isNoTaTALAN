@@ -91,7 +91,7 @@ export function initWelcomeSelection({
       loadingAudio.play().catch(() => {});
     }
 
-    const durationMs = 15 * 1000;
+    const durationMs = 3 * 1000;
     const start = Date.now();
 
     const intervalId = setInterval(() => {
