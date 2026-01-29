@@ -110,7 +110,7 @@ export function initWelcomeSelection({
         loadingAudio.pause();
         loadingAudio.currentTime = 0;
       }
-      window.location.href = 'welcome.htmll';
+      window.location.href = 'welcome.html';
     }, durationMs);
   }
 

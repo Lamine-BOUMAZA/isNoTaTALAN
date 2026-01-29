@@ -56,7 +56,7 @@ export function retry() {
     try {
       localStorage.setItem('skipIntroOnce', '1');
     } catch (_) {}
-    window.location.href = 'welcome.htmll';
+    window.location.href = 'welcome.html';
   });
 
   buttonNo.addEventListener('click', () => {
