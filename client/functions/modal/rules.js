@@ -43,7 +43,6 @@ export function rules({ onClose } = {}) {
     '- Fini le niveau dans le temps imparti.',
     '- Chaque niveau est beaucoup plus difficile.',
     '- Termine les 5 niveaux pour gagner.',
-    '- BIENVENUE EN ENFER !!!',
   ];
 
   const gameMode = localStorage.getItem('selectedMode');
