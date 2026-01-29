@@ -41,7 +41,6 @@ export function rules({ onClose } = {}) {
     '- Mais ATTENTION à ce qui est caché dans les coffres.',
     '- ATTENTION AUX ENNEMIS',
     '- Fini le niveau dans le temps imparti.',
-    '- Le temps augmente à chaque niveau.',
     '- Chaque niveau est beaucoup plus difficile.',
     '- Termine les 5 niveaux pour gagner.',
     '- BIENVENUE EN ENFER !!!',
